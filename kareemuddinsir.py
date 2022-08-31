@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+#import matplotlib.pyplot as plt
+#import seaborn as sns
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
-from tabulate import tabulate
+#from sklearn.model_selection import train_test_split
+#from sklearn.svm import SVC
+#from tabulate import tabulate
 income_df = pd.read_csv("kareemincome.csv")
 expenditure_df=pd.read_csv("kareemexpenditure.csv")
 st.title("IQRAA SCHOOL ONLINE INCOME 2022")
